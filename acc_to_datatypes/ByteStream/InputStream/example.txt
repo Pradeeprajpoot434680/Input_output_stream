@@ -1,0 +1,4 @@
+Reads multiple bytes into an array sndsal
+Thus, the number of iterations is determined by the file size 
+and buffer size and 
+is roughly the ceiling of the file size divided by the buffer size
