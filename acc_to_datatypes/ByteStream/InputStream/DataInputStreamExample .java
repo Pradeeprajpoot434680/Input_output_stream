@@ -3,7 +3,9 @@ class DataInputStreamExample
 {
     public static void main(String arg[])
     {
-        try (DataOutputStream dos = new DataOutputStream(new FileOutputStream("data.bin"))) 
+        FileOutputStream fos = new FileOutputStream("data.bin");
+        DataOutputStream dos = new DataOutputStream(fos) ;
+        try 
         {
             dos.writeInt(100);
             dos.writeDouble(3.14159);

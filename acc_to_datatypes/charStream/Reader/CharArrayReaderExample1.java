@@ -5,7 +5,7 @@ public class CharArrayReaderExample1 {
     public static void main(String[] args) 
     {
         char[] data = "Hello Java!".toCharArray();
-        // System.out.print((char) reader.read()); // R
+        // System.out.print((char) reader.read()); // H
         // System.out.print((char) reader.read()); // e
         // reader.reset(); // Go back to start
 

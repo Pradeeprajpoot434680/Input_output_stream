@@ -1,4 +1,5 @@
-Java expects the file to be named exactly as the public class name.
+Java expects the file to be 
+named exactly as the public class name.
 Ensure you're in the correct directory when running the java command.
 Make sure the class file (BufferedReaderExample1.class) exists in the directory where you're running the java command.
 Ensure there are no errors during compilation and the file path for example.txt is correct.
